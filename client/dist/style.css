@@ -2,7 +2,7 @@
   License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,9 +21,9 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -44,7 +44,7 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
 
 /*
   ========================================
@@ -52,13 +52,13 @@ table {
   ========================================
 */
 
-*,
+/* *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+} */
 
 /*
   ========================================
@@ -66,17 +66,29 @@ table {
   ========================================
 */
 .img-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .img-container{
-    width: 83.33333%;
-    margin-left: 8.33333%;
-    margin-top: 80px;
+  width: 83.33333%;
+  margin-left: 8.33333%;
+  margin-top: 80px;
 }
 
 .component-img{
-    width: 100%
+  width: 100%
+}
+
+#navbar{
+  top: 0;
+}
+
+.ReactModal__Overlay{
+  z-index: 99;
+}
+
+#app {
+  margin-top: 108px;
 }
